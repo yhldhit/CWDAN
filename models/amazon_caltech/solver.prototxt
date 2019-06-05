@@ -1,0 +1,14 @@
+test_iter: 1
+test_interval: 200
+base_lr: 0.0037
+display: 1000
+max_iter: 6000
+lr_policy: "step"
+gamma: 0.5
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+stepsize: 500
+snapshot: 6000
+snapshot_prefix: "./models/amazon_caltech/mmd"
+solver_mode: GPU
+net: "./models/amazon_caltech/train_val.prototxt"
